@@ -4,10 +4,10 @@
 #### ValidDateWheelPickerDialog
 有效日期选择滚轮对话框
 ##### 可设置属性
-1. 设置最大日期, 默认为当天日期
-2. 设置最小日期, 默认为当天日期
-3. 设置默认选中的日期, 默认为第一个日期
-4. 设置日期选择后的监听
+1. setMaxDate 设置最大日期, 默认为当天日期
+2. setMinDate 设置最小日期, 默认为当天日期
+3. setSelectDate 设置默认选中的日期, 默认为第一个日期
+4. setOnSelectDateListener 设置日期选择后的监听
 ##### demo
 ```
 Calendar maxCalendar = Calendar.getInstance();
